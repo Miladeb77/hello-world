@@ -68,11 +68,11 @@ Use the environment.yml file to set up the environment:
 	-	Replace <path_to_script> with the full path to panelApp_extract_data.py.
 	-	Replace <path_to_directory> with the path to your working directory where cron_job_output.log will store logs.
 
-	2.	Save and exit the crontab editor:
+2.	Save and exit the crontab editor:
  
 	-	Press Ctrl+X, then Y, then Enter to save.
 
-	3.	Verify cron job execution:
+3.	Verify cron job execution:
  
 	-	Wait approximately 15 minutes, then check:
 	-	The archive_databases folder contains compressed previous database versions.
