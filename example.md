@@ -28,8 +28,8 @@ Use the environment.yml file to set up the environment:
 
         conda config --set auto_activate_base false
 
-	•	This prevents Conda from automatically activating the base environment each time you open a new shell or source .bashrc.
-	•	After running this command, reload the shell configuration to apply the changes:
+	-	This prevents Conda from automatically activating the base environment each time you open a new shell or source .bashrc.
+	-	After running this command, reload the shell configuration to apply the changes:
 
         source ~/.bashrc
 
