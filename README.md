@@ -4,20 +4,20 @@
 
 The generate_valid_rcode_list.py script is designed to monitor a directory containing PanelApp database files (.db) for creation or modification events. It automatically generates a list of unique relevant disorders (R codes) from the database and appends them to an output file. The script also processes any existing database in the directory upon startup.
 
-Features
+## Features
 	1.	Directory Monitoring:
-	•	Watches the directory for new or modified PanelApp database files.
-	•	Automatically processes any valid .db file detected.
+		•	Watches the directory for new or modified PanelApp database files.
+		•	Automatically processes any valid .db file detected.
 	2.	Initial Run:
-	•	Processes existing database files in the directory on the first run.
+		•	Processes existing database files in the directory on the first run.
 	3.	Output Management:
-	•	Generates a file containing a list of unique relevant disorders (unique_relevant_disorders.txt).
-	•	Appends new disorders to the output file without overwriting existing data.
+		•	Generates a file containing a list of unique relevant disorders (unique_relevant_disorders.txt).
+		•	Appends new disorders to the output file without overwriting existing data.
 	4.	Logging:
-	•	Logs detailed events and errors to a log file (generate_valid_rcode_list.log).
-	•	Logs are configurable and display warnings in the console for user awareness.
+		•	Logs detailed events and errors to a log file (generate_valid_rcode_list.log).
+		•	Logs are configurable and display warnings in the console for user awareness.
 	5.	Background Monitoring:
-	•	Runs in the background, allowing the user to continue using the terminal.
+		•	Runs in the background, allowing the user to continue using the terminal.
 
 
 Usage
