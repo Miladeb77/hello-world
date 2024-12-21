@@ -44,8 +44,9 @@ By default, the script determines the root directory like this:
 	root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 This means:
-	-	The root directory is the parent folder of the folder where generate_valid_rcode_list.py resides.
-	-	If you move generate_valid_rcode_list.py to another location, or your project structure changes, you will need to update this line accordingly to ensure the script can correctly find its root directory.
+-	The root directory is the parent folder of the folder where generate_valid_rcode_list.py resides.
+  
+-	If you move generate_valid_rcode_list.py to another location, or your project structure changes, you will need to update this line accordingly to ensure the script can correctly find its root directory.
 
 2. Scheduled Execution and Sleep Interval
 
@@ -56,8 +57,9 @@ Inside the script, there is an infinite loop with a time.sleep(120) call, which 
     		time.sleep(120)  # Wait for 2 minutes
 
 This interval is primarily for testing or demonstration purposes (so you can see changes happen relatively quickly). In a real production scenario, you might want to run this less frequently—for example, once a month—to update the valid R-codes list. You can do this by:
-	1.	Adjusting the time.sleep value (e.g., change to time.sleep(2592000) for 30 days).
-	2.	Or disabling the infinite loop and scheduling the script via cron, systemd timers, or a CI/CD pipeline to run monthly.
+-	Adjusting the time.sleep value (e.g., change to time.sleep(2592000) for 30 days).
+  
+-	Or disabling the infinite loop and scheduling the script via cron, systemd timers, or a CI/CD pipeline to run monthly.
  
 
 By running this script regularly (e.g., monthly), you ensure your valid R-codes list always stays up-to-date with the latest medical or genetic information from PanelApp.
