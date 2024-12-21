@@ -3,12 +3,17 @@ Overview
 The generate_valid_rcode_list.py script automates the process of discovering, extracting, and maintaining a list of valid “R-codes” (or disorders) from a PanelApp database. These valid R-codes are stored in an output file for use by other systems (e.g., a web application) to verify whether a submitted R-code is valid.
 
 By default, this script:
-	1.	Locates a PanelApp database within the project directory.
-	2.	Sets up comprehensive logging (to both a log file and the console).
-	3.	Checks if there is a newly updated PanelApp .db file.
-	4.	Extracts unique relevant disorders (R-codes) from this database.
-	5.	Appends new (not-yet-seen) R-codes to an output file.
-	6.	Repeats the process continuously in a loop, waiting 120 seconds between each run (for testing purposes).
+-	Locates a PanelApp database within the project directory.
+
+-	Sets up comprehensive logging (to both a log file and the console).
+  
+-	Checks if there is a newly updated PanelApp .db file.
+  
+-	Extracts unique relevant disorders (R-codes) from this database.
+  
+-	Appends new (not-yet-seen) R-codes to an output file.
+  
+-	Repeats the process continuously in a loop, waiting 120 seconds between each run (for testing purposes).
 
 Project Structure
 
