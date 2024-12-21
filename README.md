@@ -65,6 +65,8 @@ This interval is primarily for testing or demonstration purposes (so you can see
 By running this script regularly (e.g., monthly), you ensure your valid R-codes list always stays up-to-date with the latest medical or genetic information from PanelApp.
 
 Logging
-	-	File Logs: Everything from INFO level and above gets written to logs/generate_valid_rcode_list.log.
-	-	Console Logs: Warnings (WARNING level) and above are shown on the console.
-	-	You can tailor these levels in the setup_logging function.
+-	File Logs: Everything from INFO level and above gets written to logs/generate_valid_rcode_list.log.
+  
+-	Console Logs: Warnings (WARNING level) and above are shown on the console.
+  
+-	You can tailor these levels in the setup_logging function.
