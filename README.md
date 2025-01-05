@@ -67,9 +67,9 @@ Once the program starts, your current terminal will be blocked as long as the sc
 
 ### Log Files:
 	
-	-	logs/generate_valid_rcode_list.log (records INFO-level and above messages)
+-	logs/generate_valid_rcode_list.log (records INFO-level and above messages)
  
-	-	logs/generate_valid_rcode_list_error.log (records ERROR-level messages)
+-	logs/generate_valid_rcode_list_error.log (records ERROR-level messages)
  
 ### Output Directory: output/
 
