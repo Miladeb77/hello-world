@@ -86,11 +86,11 @@ python Check_panels.py
 
 The script generates two types of output in the PanelChecker directory:
 
-- **Interactive Mode (prompt for R-codes)** 
+- **Report File** 
   A human-readable summary of findings, saved as: panel_check_report_[timestamp].txt
 
 - **Log File**
-  A detailed execution log, saved in logs/ as: panel_check_[timestamp].log
+  An execution log, saved in logs/ as: panel_check_[timestamp].log
 
 ---
 
