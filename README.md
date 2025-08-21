@@ -1,4 +1,4 @@
-# PanelApp Version & Gene Checker
+# PanelApp Version & Gene list Checker
 
 This tool checks local gene panel data against the official signed-off **PanelApp** data to identify differences in panel versions and gene lists.  
 It generates a clear, timestamped report summarising any changes.
@@ -11,17 +11,17 @@ It generates a clear, timestamped report summarising any changes.
   Compares your local panel version against the latest signed-off version in PanelApp.
 
 - **Gene List Comparison**  
-  - Compares your local gene list against the *same version* in PanelApp.  
-  - If your local version is outdated, also compares your gene list against the *most recent* signed-off version.
+  - Compares your local gene list against the gene list with the *same panel version* in PanelApp.  
+  - If your local panel version is outdated, also compares your gene list against the gene list with the *most recent* signed-off panel version in PanelApp.
 
 - **Filtered Gene Retrieval**  
-  Fetches only high-confidence genes from PanelApp (marked **Expert Review Green**).
+  Fetches only high-confidence signed-off genes from PanelApp (marked **Expert Review Green**).
 
 - **Automated Reporting**  
   Generates a timestamped `.txt` report with all findings.
 
 - **Logging**  
-  Creates a detailed, timestamped log file for each run in the `logs/` directory.
+  Creates a timestamped log file for each run in the `logs/` directory.
 
 ---
 
